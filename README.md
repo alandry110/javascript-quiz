@@ -8,7 +8,7 @@ The purpose of this repository was to create JavaScript Code Quiz that features 
 ## Acceptance Criteria
 For this project, I was given a set of critical requirements to build a timed quiz on JavaScript fundamentals so that I can gauge my progress compared to my peers. They are as follows:
 
-![Screenshot of acceptance criteria](./assets/images/Screen%20Shot%202022-07-25%20at%205.23.02%20PM.png)
+![Screenshot of acceptance criteria](./Screen%20Shot%202022-07-25%20at%205.23.02%20PM.png)
 
 ## Additional instruction to complete the final challenge included:
 * Application deploys at live URL with no loading errors. 
@@ -16,10 +16,10 @@ For this project, I was given a set of critical requirements to build a timed qu
 * Repository as a unique name, has proper file structure, naming conventions, proper indentation, quality comments, and a quality README file with description, screenshot of the final project, and a link to the live deployed application.
 * Application resembles the following mock-up functionality: 
 
-![gif of mock-up](./assets/images/04-web-apis-homework-demo.gif)
+![gif of mock-up](./04-web-apis-homework-demo.gif)
 
 ## Wireframe Mock-Up of my quiz:
-![Wireframe](./assets/images/JS%20Quiz%20Wireframe.png)
+![Wireframe](./JS%20Quiz%20Wireframe.png)
 
 ## Description and Credits 
 
@@ -36,11 +36,11 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Final submission links:
 
-* GitHub Repository - 
+* GitHub Repository - https://github.com/alandry110/javascript-quiz
 * GitHub Deployed Page - 
 
 
 ## This is what my final Code Quiz looks like:
-![JavaScript Code Quiz](./assets/images/JavaScript%20Quiz%20(1).mp4)
+![JavaScript Code Quiz]
 
 
