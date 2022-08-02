@@ -37,7 +37,7 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 ## Final submission links:
 
 * GitHub Repository - https://github.com/alandry110/javascript-quiz
-* GitHub Deployed Page - 
+* GitHub Deployed Page - https://alandry110.github.io/javascript-quiz/home.html
 
 
 ## This is what my final Code Quiz looks like:
