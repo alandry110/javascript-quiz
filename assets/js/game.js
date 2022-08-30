@@ -114,12 +114,23 @@ startBtn.addEventListener('click', function(e) {
   e.stopPropagation()
   startQuiz.classList.add('hide')
   questionsEl.classList.remove('hide')
-
+  
   // start the timer at 90 sec when you click 'start quiz'
   var interval = setInterval(() => {
     timerEl.textContent = startTimer
     startTimer--
   }, 1000);
 
+  //add in questions from array 
+  for (var q = 0; q < questions.length; q++) {
+    var question = questions[q].question;
+    document.write (question);
+    for (var a = 0; a < answers.length; a++) {
+      var answers = questions[a].answers;
+      document.write (answers);
+    }
+    
+  
+  }
 })
 
