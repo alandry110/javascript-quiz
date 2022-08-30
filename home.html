@@ -9,21 +9,21 @@
   </head>
 
   <nav>
-    <a href="./assets/css/scores.html">View High Scores</a>
+    <a href="./scores.html">View High Scores</a>
     <div class="timer">Time: <span id="countdown">0</span></div>
   </nav>
 
   <body>
-    <header class="start">
+    <header class="start" id="startHeader">
         <h1>JavaScript Quiz: Fundamentals</h1>
         <p>
           Try to answer the following JavaScript questions within the time limit. 
           Keep in mind that incorrect answers will penalize your score/time by 10 seconds!
         </p>
-        <button>Start Quiz</button>
+        <button id="startButton">Start Quiz</button>
     </header>
     
-    <section class="questions" class="hide">
+    <section class="questions hide" id="questions">
       <div id="asked-questions">
         <h2 id="question-title"></h2>
         <div id="options" class="options"></div>
@@ -41,7 +41,7 @@
       <div id="correctAddScore" class="hide"></div>
     </section>
 
-    <script src="./assets/css/game.js"></script>
+    <script src="./assets/js/game.js"></script>
   </body>
 
 </html>

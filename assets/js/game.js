@@ -1,16 +1,12 @@
 var questionContainerElement = document.getElementById('question-container')
-var questionElement = document.getElementById('question')
 var answerButtonsElement = document.getElementById('answer-buttons')
 var timerEl = document.getElementById('countdown')
+var startBtn = document.getElementById('startButton')
+var startQuiz = document.getElementById('startHeader')
+var questionsEl = document.getElementById('questions')
+var startTimer = 90
 
-var shuffledQuestions, currentQuestionIndex
-
-nextButton.addEventListener('click', () => {
-  currentQuestionIndex++
-  setNextQuestion()
-})
-
-
+timerEl.textContent = startTimer
 
 var questions = [
   {
@@ -113,3 +109,17 @@ var questions = [
     ]
   }
 ]
+
+startBtn.addEventListener('click', function(e) {
+  e.stopPropagation()
+  startQuiz.classList.add('hide')
+  questionsEl.classList.remove('hide')
+
+  // start the timer at 90 sec when you click 'start quiz'
+  var interval = setInterval(() => {
+    timerEl.textContent = startTimer
+    startTimer--
+  }, 1000);
+
+})
+
