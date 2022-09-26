@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <div class="scores">
+        <a href="./highscore.html">View High Scores</a>
+      </div>
+      <div class="timer">Time: <span id="time">0</span></div>
+    </nav>
+
+    <section>
+      <header id="start-screen" class="start">
+          <h1>JavaScript Quiz: Fundamentals</h1>
+          <p>
+            Try to answer the following JavaScript questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!
+          </p>
+          <button id="start">Start Quiz</button>
+      </header>
+    </section>
+      
+    <section class="questions">
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+    </section>
+
+    <section>
+      <div id="end-screen" class="hide">
+        <h1>Finished!</h1>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3">
+        </p>
+        <button id="submit">Submit</button>
+      </div>
+      
+      <div id="feedback" class="feedback"></div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+
+</html>
