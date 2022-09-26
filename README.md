@@ -1,7 +1,5 @@
 # Web APIs Challenge: JavaScript Code Quiz
 
-DISCLAIMER: I was not able to finish this project in the alloted time so it does not function as it should. The only thing I was able to build out was the HTML and CSS
-
 ## About the Repository
 The purpose of this repository was to create JavaScript Code Quiz that features dynamically updated HTML CSS powered by JavaScript code. When you deploy the application you will see that it has a clean, polished, and responsive user interface.
 
@@ -39,8 +37,7 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 * GitHub Repository - https://github.com/alandry110/javascript-quiz
 * GitHub Deployed Page - https://alandry110.github.io/javascript-quiz/home.html
 
-
 ## This is what my final Code Quiz looks like:
-![JavaScript Code Quiz]
+![JavaScript Code Quiz](./assets/images/JavaScript%20Quiz.gif)
 
 
