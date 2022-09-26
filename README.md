@@ -14,7 +14,7 @@ The purpose of this repository was to create JavaScript Code Quiz that features 
 - [License](#license)
 
 ## User Story
-![Screenshot of user story]()
+![Screenshot of user story](./assets/images/userstory.png)
 
 ## Acceptance Criteria
 ![Screenshot of acceptance criteria](https://user-images.githubusercontent.com/108308865/192376002-fa7f8ea4-ab67-409d-af1a-ed01aeaf53be.png)
