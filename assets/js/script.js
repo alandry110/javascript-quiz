@@ -5,6 +5,7 @@ var choicesEl = document.querySelector("#choices");
 var initialsEl = document.querySelector("#initials");
 var submitBtn = document.querySelector("#submit");
 var feedbackEl = document.createElement("div");
+var removeFeedback = document.querySelector("#removeFeedback");
 
 var currentQuestionIndex = 0;
 var time = 90;
