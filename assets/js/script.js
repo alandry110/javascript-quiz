@@ -1,10 +1,10 @@
 var timerEl = document.querySelector("#time");
 var startBtn = document.querySelector("#start");
 var questionsEl = document.querySelector("#questions");
-var feedbackEl = document.querySelector("#feedback");
 var choicesEl = document.querySelector("#choices");
 var initialsEl = document.querySelector("#initials");
 var submitBtn = document.querySelector("#submit");
+var feedbackEl = document.createElement("div");
 
 var currentQuestionIndex = 0;
 var time = 90;
@@ -12,6 +12,8 @@ var timerId;
 startBtn.onclick = startQuiz;
 submitBtn.onclick = saveHighscore;
 initialsEl.onkeyup = submit;
+
+feedbackEl.setAttribute("class", "feedback");
 
 var questions = [
   {
@@ -161,9 +163,11 @@ function questionClick() {
     }
 
     timerEl.textContent = time;
+    removeFeedback.appendChild(feedbackEl);
     feedbackEl.textContent = "Incorrect!";
     feedbackEl.style = "color: #FF5757";
   } else {
+    removeFeedback.appendChild(feedbackEl);
     feedbackEl.textContent = "Correct!";
     feedbackEl.style = "color: #C9E265";
   }
@@ -172,6 +176,7 @@ function questionClick() {
 
   if (currentQuestionIndex === questions.length) {
     quizEnd();
+    removeFeedback.removeChild(feedbackEl);
     feedbackEl.style = "display: none"
   } else {
     getQuestion();
