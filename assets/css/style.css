@@ -3,7 +3,6 @@
   --coral: #FF1678;
   --white: #FFFFFF;
   --shadow: #343434;
-
 }
 
 nav {
@@ -102,6 +101,19 @@ li:nth-child(odd) {
   font-size: 55px;
   text-align: center;
   font-family: 'Anton', sans-serif;
+  animation-duration: 1s;
+  animation-name: feedback;
+}
+
+@keyframes feedback {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .choices button {
