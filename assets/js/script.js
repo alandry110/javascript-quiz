@@ -178,7 +178,7 @@ function questionClick() {
   if (currentQuestionIndex === questions.length) {
     quizEnd();
     removeFeedback.removeChild(feedbackEl);
-    feedbackEl.style = "display: none"
+    feedbackEl.style = "display: none";
   } else {
     getQuestion();
   }
