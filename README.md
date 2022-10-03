@@ -14,10 +14,26 @@ The purpose of this repository was to create JavaScript Code Quiz that features 
 - [License](#license)
 
 ## User Story
-![Screenshot of user story](./assets/images/userstory.png)
+```md 
+AS A coding boot camp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
+```
 
 ## Acceptance Criteria
-![Screenshot of acceptance criteria](https://user-images.githubusercontent.com/108308865/192376002-fa7f8ea4-ab67-409d-af1a-ed01aeaf53be.png)
+```md 
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
+```
 
 ### Additional instructions:
 * Application deploys at live URL with no loading errors. 
